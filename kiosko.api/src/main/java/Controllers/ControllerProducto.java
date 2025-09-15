@@ -8,6 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/productos")
+@CrossOrigin(origins = "*")//permite peticiones desde otros orígenes
 public class ControllerProducto {
 
     private final ProductoRepository repo;
