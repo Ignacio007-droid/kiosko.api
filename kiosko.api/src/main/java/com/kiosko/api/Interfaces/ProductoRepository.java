@@ -1,6 +1,6 @@
-package Interfaces;
+package com.kiosko.api.Interfaces;
 
-import Objets.Producto;
+import com.kiosko.api.Objets.Producto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

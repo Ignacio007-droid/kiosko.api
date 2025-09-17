@@ -1,7 +1,7 @@
 package com.kiosko.api;
 
-import Interfaces.ProductoRepository;
-import Objets.Producto;
+import com.kiosko.api.Interfaces.ProductoRepository;
+import com.kiosko.api.Objets.Producto;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -30,7 +30,7 @@ public class Application {
 	@Bean
 	public CommandLineRunner aniade(ProductoRepository repo) {
 		return args -> {
-			Producto p1 = new Producto(1000,5,"Genio");
+			Producto p1 = new Producto(7777,23,"Fantoche");
 			repo.save(p1);
 			System.out.println("Producto insertado : "+p1.getNombre());
 		};

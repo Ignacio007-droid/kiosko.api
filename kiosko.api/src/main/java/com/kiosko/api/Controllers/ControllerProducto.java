@@ -1,7 +1,7 @@
-package Controllers;
+package com.kiosko.api.Controllers;
 
-import Objets.Producto;
-import Interfaces.ProductoRepository;
+import com.kiosko.api.Objets.Producto;
+import com.kiosko.api.Interfaces.ProductoRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

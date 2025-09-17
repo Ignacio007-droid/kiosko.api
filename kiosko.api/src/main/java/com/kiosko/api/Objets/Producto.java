@@ -1,4 +1,4 @@
-package Objets;
+package com.kiosko.api.Objets;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -11,12 +11,15 @@ public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-
     private double precio;
     private int cantidad;
     private String nombre;
 
+    public Producto(){};
     public Producto(double precio , int cantidad, String nombre) {
+        this.precio = precio;
+        this.cantidad = cantidad;
+        this.nombre = nombre;
     }
 
     public int getId() {
