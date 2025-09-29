@@ -1,11 +1,10 @@
-package objets;
+package com.kiosko.api.objets;
 
 import jakarta.persistence.*;
-import lombok.*;
 
+@Table(name = "Producto")
 @Entity
-@Table(name = "producto")
-@Data
+
 public class Producto {
 
     @Id
@@ -14,7 +13,10 @@ public class Producto {
 
     private double precio;
     private int cantidad;
+
+    @Column(columnDefinition = "TEXT")
     private String imagenURL;
+
     private String nombre;
 
     @Enumerated(EnumType.STRING)

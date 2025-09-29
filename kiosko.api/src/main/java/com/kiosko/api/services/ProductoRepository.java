@@ -1,7 +1,7 @@
-package services;
+package com.kiosko.api.services;
 
-import objets.Categoria;
-import objets.Producto;
+import com.kiosko.api.objets.Categoria;
+import com.kiosko.api.objets.Producto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

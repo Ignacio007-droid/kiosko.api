@@ -1,11 +1,11 @@
-package controllers;
+package com.kiosko.api.controllers;
 
-import objets.Categoria;
-import objets.Producto;
-import objets.ProductoDTO;
+import com.kiosko.api.objets.Categoria;
+import com.kiosko.api.objets.Producto;
+import com.kiosko.api.objets.ProductoDTO;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import services.ProductoService;
+import com.kiosko.api.services.ProductoService;
 
 
 import java.util.List;

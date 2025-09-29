@@ -1,4 +1,4 @@
-package objets;
+package com.kiosko.api.objets;
 
 public class ProductoDTO {
         private String nombre;

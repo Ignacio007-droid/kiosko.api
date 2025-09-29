@@ -1,7 +1,5 @@
 package com.kiosko.api;
 
-import services.ProductoRepository;
-import objets.Producto;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -27,7 +25,8 @@ public class Application {
 			}
 		};
 	}
-	/*@Bean
+	/*
+	@Bean
 	public CommandLineRunner aniade(ProductoRepository repo) {
 		return args -> {
 			Producto p1 = new Producto();
