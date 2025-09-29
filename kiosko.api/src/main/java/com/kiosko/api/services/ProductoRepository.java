@@ -1,13 +1,7 @@
-<<<<<<<< HEAD:kiosko.api/src/main/java/com/kiosko/api/Interfaces/ProductoRepository.java
-package com.kiosko.api.Interfaces;
-
-import com.kiosko.api.Objets.Producto;
-========
 package com.kiosko.api.services;
 
 import com.kiosko.api.objets.Categoria;
 import com.kiosko.api.objets.Producto;
->>>>>>>> origin/rama_valem:kiosko.api/src/main/java/com/kiosko/api/services/ProductoRepository.java
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
